@@ -1,0 +1,8 @@
+{
+  "short_name": "Greenwood's site",
+  "name": "Oliver Greenwood's Website",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
