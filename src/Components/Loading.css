@@ -1,0 +1,79 @@
+@keyframes slidedown {
+    0% {
+      transform: translateY(-250%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+@keyframes slideup {
+    0% {
+      transform: translateY(250%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+@keyframes slideleft {
+    0% {
+      transform: translateX(-250%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+@keyframes show-quick {
+    0% {
+      opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+@keyframes slow-fade {
+    0% {
+      opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+
+.nav-slidedown:nth-child(1) {
+    animation: slidedown 0.5s linear 0s, show-quick 0s linear 0s;
+}
+
+.nav-slidedown:nth-child(2) {
+    animation: slidedown 0.5s linear 0.2s, show-quick 0.21s linear 0s;
+}
+
+.nav-slidedown:nth-child(3) {
+    animation: slidedown 0.5s linear 0.4s, show-quick 0.41s linear 0s;
+}
+
+.nav-slidedown:nth-child(4) {
+    animation: slidedown 0.5s linear 0.6s, show-quick 0.61s linear 0s;
+}
+
+.logo-slideleft {
+    animation: slideleft 0.5s linear 0.3s, show-quick 0.31s linear 0s;
+}
+
+.social-slideup {
+    animation: slideup 0.5s linear 0.35s, show-quick 0.36s linear 0s;
+}
+
+.titletext-fade {
+    animation: slow-fade 2s;
+}
