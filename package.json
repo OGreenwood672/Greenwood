@@ -1,5 +1,6 @@
 {
   "name": "greenwood-website",
+  "homepage": "https://{username}.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
