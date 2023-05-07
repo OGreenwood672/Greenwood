@@ -32,71 +32,79 @@ export default function Education() {
                     <div className={`edu-info ${tab === "tab2" ? "" : "edu-hidden"}`}>
                         <h2>A Levels (2021 - 2023)</h2>
                         <table className="ALevel-table">
-                            <tr>
-                                <th>Subject</th>
-                                <th>Grade</th>
-                            </tr>
-                            <tr>
-                                <td>Mathematics</td>
-                                <td>_</td>
-                            </tr>
-                            <tr>
-                                <td>Further Mathematics</td>
-                                <td>_</td>
-                            </tr>
-                            <tr>
-                                <td>Physics</td>
-                                <td>_</td>
-                            </tr>
-                            <tr>
-                                <td>Computer Science</td>
-                                <td>_</td>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>Subject</th>
+                                    <th>Grade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Mathematics</td>
+                                    <td>_</td>
+                                </tr>
+                                <tr>
+                                    <td>Further Mathematics</td>
+                                    <td>_</td>
+                                </tr>
+                                <tr>
+                                    <td>Physics</td>
+                                    <td>_</td>
+                                </tr>
+                                <tr>
+                                    <td>Computer Science</td>
+                                    <td>_</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                     <div className={`edu-info ${tab === "tab3" ? "" : "edu-hidden"}`}>
                         <h2>GCSEs (2018 - 2021)</h2>
                         <table className="GCSE-table">
-                            <tr>
-                                <th>Subject</th>
-                                <th>Grade</th>
-                                <th>Subject</th>
-                                <th>Grade</th>
-                            </tr>
-                            <tr>
-                                <td>Mathematics</td>
-                                <td>9</td>
-                                <td>Physics</td>
-                                <td>9</td>
-                            </tr>
-                            <tr>
-                                <td>Biology</td>
-                                <td>9</td>
-                                <td>Chemistry</td>
-                                <td>9</td>
-                            </tr>
-                            <tr>
-                                <td>Computer Science</td>
-                                <td>9</td>
-                                <td>Electronics</td>
-                                <td>9</td>
-                            </tr>
-                            <tr>
-                                <td>History</td>
-                                <td>8</td>
-                                <td>French</td>
-                                <td>8</td>
-                            </tr>
-                            <tr>
-                                <td>English Language</td>
-                                <td>7</td>
-                                <td>English Literature</td>
-                                <td>8</td>
-                            </tr>
-                            <tr>
-                                <td>Further Mathematics</td>
-                                <td>9</td>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>Subject</th>
+                                    <th>Grade</th>
+                                    <th>Subject</th>
+                                    <th>Grade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Mathematics</td>
+                                    <td>9</td>
+                                    <td>Physics</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td>Biology</td>
+                                    <td>9</td>
+                                    <td>Chemistry</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td>Computer Science</td>
+                                    <td>9</td>
+                                    <td>Electronics</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td>History</td>
+                                    <td>8</td>
+                                    <td>French</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>English Language</td>
+                                    <td>7</td>
+                                    <td>English Literature</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>Further Mathematics</td>
+                                    <td>9</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>

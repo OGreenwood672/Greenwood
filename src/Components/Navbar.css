@@ -8,6 +8,16 @@
     position: relative;
 }
 
+.show-nav {
+    animation: slide-nav-down 0.4s;
+    animation-fill-mode: forwards;
+}
+
+.hide-nav {
+    animation: slide-nav-up 0.8s;
+    animation-fill-mode: forwards;
+}
+
 .nav-content {
     width: 100%;
     height: 90px;
@@ -68,3 +78,20 @@
     transform-origin: bottom left;
 }
 
+@keyframes slide-nav-up {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes slide-nav-down {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}

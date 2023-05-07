@@ -9,7 +9,7 @@ export default class TitleText extends Component {
     render() {
         return (
             <div className="Main-Text">
-                <p class="typed-text">Hi, my name is</p>
+                <p className="typed-text">Hi, my name is</p>
                 <div className="titletext-fade">
                     <h1 id="name">
                         Oliver Greenwood
