@@ -8,7 +8,6 @@ import "./Loading.css";
 export default function Navbar() {
 
     const scrollDirection = useScrollDirection();
-    console.log(scrollDirection);
 
     return (
         <nav className={`nav ${scrollDirection === "up" ? "show-nav" : "hide-nav"}`} id="navbar">

@@ -53,12 +53,8 @@
     height: 4rem;
     display: table-cell;
     vertical-align: middle;
-    transition: transform 50s ease-in;
 }
 
-.logo:hover {
-    transform: rotateY(99999deg);
-}
 
 .underline::after {
     content: '';
