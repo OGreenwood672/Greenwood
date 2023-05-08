@@ -41,7 +41,7 @@
     0% {
       opacity: 0;
     }
-    70% {
+    45% {
         opacity: 0;
     }
     100% {
@@ -75,5 +75,5 @@
 }
 
 .titletext-fade {
-    animation: slow-fade 2s;
+    animation: slow-fade 3.6s;
 }
