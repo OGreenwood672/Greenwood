@@ -8,6 +8,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 9999;
 }
 
 p, h2 {
@@ -15,11 +16,15 @@ p, h2 {
 }
 
 
-.content {
+.thin-content {
     margin: auto;
     margin-top: 150px;
     width: 50%;
     padding: 10px;
+}
+
+.thick-content {
+    width: 100%;
 }
 
 /* width */

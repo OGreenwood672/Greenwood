@@ -3,6 +3,7 @@
     display: inline;
     position: fixed;
     bottom: 20px;
+    z-index: 999;
 }
 
 .social_list {

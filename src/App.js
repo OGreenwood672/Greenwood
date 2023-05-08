@@ -31,14 +31,16 @@ class App extends Component {
 
             </div>
 
-            <div className="content">
+            <div className="thin-content">
 
                 <TitleText />
 
                 <FadeIn>
                     <About />
                 </FadeIn>
+            </div>
 
+            <div className="thick-content">
                 <FadeIn>
                     <Projects />
                 </FadeIn>
@@ -50,9 +52,7 @@ class App extends Component {
                 <FadeIn>
                     <ContactMe />
                 </FadeIn>
-
             </div>
-            
 
       </div>
     );
