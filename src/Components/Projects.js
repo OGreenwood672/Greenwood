@@ -19,11 +19,11 @@ export default class Projects extends Component {
                         <p>technologies:</p>
                         </div>
                     </div>
-                    <div className="project-img">
-                        <a href="/">
-                        <img href="./project-imgs/project_algorithms.png" alt="algorithms-website">
-                        </img>
-                        </a>
+                    <div className="featured-right">
+                        <img className="featured-img" src="./project_imgs/project_algorithms.png" alt="" />
+                        <div className="project-link-button">
+                            <b><p href="/" className="project-link">Img</p></b>
+                        </div>
                     </div>
                 </div>
                 <div className="featured">

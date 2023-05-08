@@ -19,6 +19,7 @@ class App extends Component {
   render() {
     return (
         <div className="App">
+
             <header className="App-header">
                 <Navbar />
             </header>
@@ -39,8 +40,10 @@ class App extends Component {
                     <About />
                 </FadeIn>
             </div>
+                
 
             <div className="thick-content">
+                
                 <FadeIn>
                     <Projects />
                 </FadeIn>
