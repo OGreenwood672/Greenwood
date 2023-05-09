@@ -2,6 +2,12 @@
 
 #projects {
     padding-bottom: 400px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.project-tab-title {
+    text-decoration: underline;
 }
 
 .featured {
@@ -36,11 +42,15 @@
 
 .project-title {
     color: aqua;
-    padding-left: 8vw;
-    width: 35%;
+    font-size: xx-large;
+    width: 60%;
     height: 20%;
     text-align: center;
-    margin-bottom: 0;
+    margin: 6% 20%;
+}
+
+.summary-text {
+    margin: 6% 20%;
 }
 
 .project-technologies {
@@ -49,6 +59,18 @@
     height: 20%;
     margin: auto;
     bottom: 0;
+}
+
+.tech {
+    fill: red;
+    stroke: white;
+    stroke-width: 5;
+}
+
+.tech-text {
+    color: black;
+    font-size: x-large;
+    font-weight: 650;
 }
 
 .featured-right {
@@ -89,10 +111,34 @@
 }
 
 .project-link {
+    display: inline-block;
     color: black;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
     margin: 0;
-    padding: 10% 0%;
     visibility: inherit;
+    vertical-align: middle;
+    transform: translate(0%, -5%);
+}
+
+.project-link img {
+    float: left;
+    position: relative;
+    height: 50%;
+    filter: invert(100%);
+    padding: 8%;
+}
+
+.project-link b {
+    position: absolute;
+    font-size: 1.5vmin;
+    width: 100%;
+    color: black;
+    top: 50%;
+    left: 0;
+    -ms-transform: translate(10%, -50%);
+    transform: translate(10%, -50%);
 }
 
 @keyframes show-link {
