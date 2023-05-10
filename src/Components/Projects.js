@@ -23,11 +23,10 @@ export default class Projects extends Component {
                         </p>
                         <div className="project-technologies">
                             <p>Technologies used to develop this project include:</p>
-                            <svg height="140" width="500">
+                            <svg className="svg_techs">
                                 <g>
-                                    <ellipse cx="65" cy="35" rx="60" ry="30"
-                                    className="tech" />
-                                    <text className="tech-text" x="32" y="42">React</text>
+                                    <ellipse cx="50%" cy="24%" className="tech" />
+                                    <text className="tech-text" x="47%" y="28%">React</text>
                                 </g>
                             </svg>
                         </div>

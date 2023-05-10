@@ -3,11 +3,12 @@
 #projects {
     padding-bottom: 400px;
     text-align: center;
-    font-size: xx-large;
 }
 
 .project-tab-title {
-    text-decoration: underline;
+    text-align: right;
+    margin-right: 10%;
+    font-size: 4vw;
 }
 
 .featured {
@@ -44,40 +45,51 @@
     color: aqua;
     font-size: xx-large;
     width: 60%;
-    height: 20%;
     text-align: center;
-    margin: 6% 20%;
+    margin: 1vw 20%;
+    padding: 0;
+    font-size: 2vw;
 }
 
 .summary-text {
-    margin: 6% 20%;
+    margin: 2vw 20%;
+    font-size: 1.2vw;
 }
 
 .project-technologies {
     position: relative;
-    width: 40%;
+    max-width: 100%;
     height: 20%;
-    margin: auto;
     bottom: 0;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.svg_techs {
+    display: inline;
+    width: 100%;
+    text-align: center;
 }
 
 .tech {
-    fill: red;
+    fill: rgb(26, 26, 26);
     stroke: white;
-    stroke-width: 5;
+    stroke-width: 2;
+    rx: 2.75vw;
+    ry: 1.4vw;
 }
 
 .tech-text {
-    color: black;
-    font-size: x-large;
+    fill: white;
+    font-size: 1.15vw;
     font-weight: 650;
 }
 
 .featured-right {
-    margin-top: 7vh;
-    width: 36%;
+    margin-top: 4vw;
+    margin-right: 10vw;
+    width: 36vw;
     height: max-content;
-    text-align: center;
     position: relative;
 }
 
@@ -132,13 +144,11 @@
 
 .project-link b {
     position: absolute;
-    font-size: 1.5vmin;
+    font-size: .9vw;
     width: 100%;
     color: black;
-    top: 50%;
-    left: 0;
-    -ms-transform: translate(10%, -50%);
-    transform: translate(10%, -50%);
+    top: 1.15vw;
+    left: 0.6vw;
 }
 
 @keyframes show-link {
