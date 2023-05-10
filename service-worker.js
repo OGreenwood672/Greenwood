@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/greenwood/precache-manifest.a873a1ca17031bf821a5f8a15372347b.js"
+  "/greenwood/precache-manifest.a2e8521703c7489268c933398c19b330.js"
 );
 
 workbox.clientsClaim();
