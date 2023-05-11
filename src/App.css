@@ -27,6 +27,12 @@ p, h2 {
     width: 100%;
 }
 
+.project-tab-title {
+    text-align: right;
+    margin-right: 10%;
+    font-size: 4vw;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 0.5rem;

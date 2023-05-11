@@ -11,6 +11,9 @@ export default class ContactMe extends Component {
                 <h2>
                     Contact Me
                 </h2>
+                <p>
+                    Email: greenwood672.dev@gmail.com
+                </p>
             </div>
           );
       

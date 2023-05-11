@@ -8,6 +8,9 @@ import Education from "./Components/Education";
 import ContactMe from "./Components/ContactMe";
 import Socials from "./Components/Socials";
 
+import Featured1 from "./Components/Featured1.js";
+import Featured2 from "./Components/Featured2.js";
+
 import FadeIn from "./Effects/FadeIn";
 
 import './App.css';
@@ -43,7 +46,20 @@ class App extends Component {
                 
 
             <div className="thick-content">
-                
+
+                <FadeIn>
+                    <h2 className="project-tab-title">
+                        Projects
+                    </h2>
+                    <Featured1 />
+                </FadeIn>
+                <FadeIn>
+                    <Featured2 />
+                </FadeIn>
+            
+            </div>
+            <div className="thin-content">
+
                 <Projects />
 
                 <FadeIn>

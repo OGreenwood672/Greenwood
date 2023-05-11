@@ -3,3 +3,20 @@
 #about {
     padding-bottom: 450px;
 }
+
+#about-content {
+    display: flex;
+    overflow: hidden;
+}
+
+#about-content img {
+    width: 25vw;
+    max-height: 50%;
+    background: aqua;
+    margin-left: 15px;
+    filter: grayscale(80%)
+}
+
+#about-text {
+    max-width: 25vw;
+}

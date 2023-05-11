@@ -1,11 +1,25 @@
 
-#projects {
+.projects {
     padding-bottom: 400px;
     text-align: center;
 }
 
-.project-tab-title {
-    text-align: right;
-    margin-right: 10%;
-    font-size: 4vw;
+#other-projects-title {
+    font-size: 3vw;
+    color: rgb(18, 151, 151);
+}
+
+.other-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.other-project img {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
 }

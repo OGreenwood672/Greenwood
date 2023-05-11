@@ -8,7 +8,13 @@ export default class About extends Component {
         return (
             <div id="about">
                 <h2>About me:</h2>
-                <p>Hi there, my name is Oliver Greenwood</p>
+                <div id="about-content">
+                    <p id="about-text">
+                        Hi there, my name is Oliver Greenwood. I am a self-taught programmer,
+                        with strong experience in Python...
+                    </p>
+                    <img src="me.png" alt=""/>
+                </div>
             </div>
           );
       

@@ -10,9 +10,9 @@ export default class Featured1 extends Component {
 
     render() {
         return (
-            <div className="featured">
+            <div className="featured" id="featured1">
                 <div className="featured-left">
-                    <h3 className="project-title">Algorithm Website</h3>
+                    <a className="project-title" href="https://github.com/OGreenwood672/algorithms">Algorithm Website</a>
                     <p className="summary-text">
                         A website which visualises different types of algorithms, including: Graphing algorithms,    
                         Sorting algorithms, and some miscellaneous algorithms. 
