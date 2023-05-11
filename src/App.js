@@ -44,9 +44,7 @@ class App extends Component {
 
             <div className="thick-content">
                 
-                <FadeIn>
-                    <Projects />
-                </FadeIn>
+                <Projects />
 
                 <FadeIn>
                     <Education />

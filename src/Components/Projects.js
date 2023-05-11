@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 
+import Featured1 from "./Featured1.js";
+import Featured2 from "./Featured2.js";
+
+import FadeIn from "./../Effects/FadeIn";
+
 import "./Projects.css"
 
 export default class Projects extends Component {
@@ -14,36 +19,14 @@ export default class Projects extends Component {
                 <h2 className="project-tab-title">
                     Projects
                 </h2>
-                <div className="featured">
-                    <div className="project-summary">
-                        <h3 className="project-title">Algorithm Website</h3>
-                        <p className="summary-text">
-                            A website which visualises different types of algorithms, including: Graphing algorithms,    
-                            Sorting algorithms, and some miscellaneous algorithms. 
-                        </p>
-                        <div className="project-technologies">
-                            <p>Technologies used to develop this project include:</p>
-                            <svg className="svg_techs">
-                                <g>
-                                    <ellipse cx="50%" cy="24%" className="tech" />
-                                    <text className="tech-text" x="47%" y="28%">React</text>
-                                </g>
-                            </svg>
-                        </div>
-                    </div>
-                    <div className="featured-right">
-                        <img className="featured-img" src="./project_imgs/project_algorithms.png" alt="" />
-                        <div className="project-link-button">
-                            <div onClick={() => this.send_to_website("https://github.com/OGreenwood672/algorithms")} className="project-link">
-                                <img className="project-link-icon" src="./social_icons/github.png" alt="" />
-                                <b>View on GitHub</b>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="featured">
-                    
-                </div>
+                <FadeIn>
+                    <Featured1 />
+                </FadeIn>
+                <FadeIn>
+                    <Featured2 />
+                </FadeIn>
+                
+                
             </div>
           );
       
