@@ -13,7 +13,7 @@ export default class About extends Component {
                         Hi there, my name is Oliver Greenwood. I am a self-taught programmer,
                         with strong experience in Python...
                     </p>
-                    <img src="me.png" alt=""/>
+                    <img src="me.png" alt="Oliver Greenwood"/>
                 </div>
             </div>
           );
