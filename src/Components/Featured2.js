@@ -24,7 +24,7 @@ export default class Featured2 extends Component {
                         <a href="https://github.com/OGreenwood672/Twitter-Map" className="project-title">Twitter Map</a>
                         <p className="summary-text">
                             A software which is able to scrape data from Twitter's API
-                            and create a force directed map of there community both 2D
+                            and create a force directed map of their community both 2D
                             and 3D. 
                         </p>
                         <div className="project-technologies">
