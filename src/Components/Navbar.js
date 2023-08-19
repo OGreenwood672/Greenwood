@@ -35,7 +35,11 @@ export default function Navbar() {
                             Contact Me
                         </Link>
                     </li>
-                    <li className="nav-item">Resume</li>
+                    <li className="nav-item">
+                        <a href="https://docs.google.com/document/d/1ihqs8d0uH6jMPKK8O1LDK3HoP9iYvgKb80X4Boms5XM"
+                            Résumé
+                        />
+                    </li>
                 </ol>
             </ol>
         </nav>
