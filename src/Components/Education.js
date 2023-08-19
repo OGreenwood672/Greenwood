@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-// import $ from 'jquery';
-
 import "./Education.css"
 
 export default function Education() {
@@ -26,7 +24,7 @@ export default function Education() {
                 </div>
                 <div className="content-col">
                     <div className={`edu-info ${tab === "tab1" ? "" : "edu-hidden"}`}>
-                        <h2>University (2023 - )</h2>
+                        <h2>University of Cambridge (2023 - )</h2>
                         <p>Good Morning VIETNAM</p>
                     </div>
                     <div className={`edu-info ${tab === "tab2" ? "" : "edu-hidden"}`}>
@@ -41,19 +39,19 @@ export default function Education() {
                             <tbody>
                                 <tr>
                                     <td>Mathematics</td>
-                                    <td>_</td>
+                                    <td>A*</td>
                                 </tr>
                                 <tr>
                                     <td>Further Mathematics</td>
-                                    <td>_</td>
-                                </tr>
-                                <tr>
-                                    <td>Physics</td>
-                                    <td>_</td>
+                                    <td>A*</td>
                                 </tr>
                                 <tr>
                                     <td>Computer Science</td>
-                                    <td>_</td>
+                                    <td>A*</td>
+                                </tr>
+                                <tr>
+                                    <td>Physics</td>
+                                    <td>A</td>
                                 </tr>
                             </tbody>
                         </table>
