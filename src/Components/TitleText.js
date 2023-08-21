@@ -14,7 +14,7 @@ export default class TitleText extends Component {
                     <h1 id="name">
                         Oliver Greenwood
                     </h1>
-                    <p>I is HUMAN, Woah - that's deep man</p>
+                    <p>Hey there</p>
                 </div>
                 
             </div>

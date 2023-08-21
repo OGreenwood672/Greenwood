@@ -11,7 +11,7 @@ export default class About extends Component {
                 <div id="about-content">
                     <p id="about-text">
                         Hi there, my name is Oliver Greenwood. I am a self-taught programmer,
-                        with strong experience in Python...
+                        with strong experience in Python, JavaScript, Java and C#. 
                     </p>
                     <img src="me.png" alt="Oliver Greenwood"/>
                 </div>

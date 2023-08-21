@@ -35,10 +35,10 @@ export default function Navbar() {
                             Contact Me
                         </Link>
                     </li>
-                    <li className="nav-item">
-                        <a href="https://docs.google.com/document/d/1ihqs8d0uH6jMPKK8O1LDK3HoP9iYvgKb80X4Boms5XM"
+                    <li className="nav-item underline nav-slidedown">
+                        <a href="https://drive.google.com/file/d/108AitEGJGDjUB0gGqKHfayhSMjjUuMD-/view?usp=sharing" className="nav-item" style={{padding: "initial"}}>
                             Résumé
-                        />
+                        </a>
                     </li>
                 </ol>
             </ol>
