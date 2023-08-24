@@ -63,44 +63,54 @@ export default function Education() {
                                 <tr>
                                     <th>Subject</th>
                                     <th>Grade</th>
-                                    <th>Subject</th>
-                                    <th>Grade</th>
+                                    {/* <th>Subject</th>
+                                    <th>Grade</th> */}
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>Mathematics</td>
                                     <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td>Further Mathematics</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
                                     <td>Physics</td>
                                     <td>9</td>
                                 </tr>
                                 <tr>
                                     <td>Biology</td>
                                     <td>9</td>
+                                </tr>
+                                <tr>
                                     <td>Chemistry</td>
                                     <td>9</td>
                                 </tr>
                                 <tr>
                                     <td>Computer Science</td>
                                     <td>9</td>
+                                </tr>
+                                <tr>
                                     <td>Electronics</td>
                                     <td>9</td>
                                 </tr>
                                 <tr>
                                     <td>History</td>
                                     <td>8</td>
+                                </tr>
+                                <tr>
                                     <td>French</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>English Literature</td>
                                     <td>8</td>
                                 </tr>
                                 <tr>
                                     <td>English Language</td>
                                     <td>7</td>
-                                    <td>English Literature</td>
-                                    <td>8</td>
-                                </tr>
-                                <tr>
-                                    <td>Further Mathematics</td>
-                                    <td>9</td>
                                 </tr>
                             </tbody>
                         </table>

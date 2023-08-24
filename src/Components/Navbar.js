@@ -12,8 +12,10 @@ export default function Navbar() {
     return (
         <nav className={`nav ${scrollDirection === "up" ? "show-nav" : "hide-nav"}`} id="navbar">
             <ol className="nav-content">
-                <img className="logo logo-slideleft" src="./clock.png" alt="Website logo">
+                <Link to="name" spy={true} smooth={true} offset={-400} duration={500}>
+                    <img className="logo logo-slideleft" src="./clock.png" alt="Website logo">
                 </img>
+                </Link>
                 <ol className="nav-items">
                     <li className="nav-item underline nav-slidedown">
                         <Link to="about" spy={true} smooth={true} offset={-75} duration={500}>

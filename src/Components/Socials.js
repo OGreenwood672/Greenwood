@@ -13,7 +13,7 @@ export default class Socials extends Component {
                     <li><a href="https://www.instagram.com/_greenwood672"><img className="social" alt="" src="./social_icons/insta.png"></img></a></li>
                     <li><a href="https://www.discord.com/users/Greenwood#6835"><img className="social" alt="" src="./social_icons/discord.png"></img></a></li>
                     <li><a href="https://www.github.com/OGreenwood672"><img className="social" alt="" src="./social_icons/github.png"></img></a></li>
-                    <li><a href="www.linkedin.com/in/greenwood672"><img className="social" alt="" src="./social_icons/LinkedIn.png"></img></a></li>
+                    <li><a href="https://www.linkedin.com/in/greenwood672"><img className="social" alt="" src="./social_icons/LinkedIn.png"></img></a></li>
                 </ul>
             </div>
           );

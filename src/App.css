@@ -1,7 +1,6 @@
 
 body {
     background: #161616;
-    overflow-x: hidden;
 }
 
 header {
@@ -29,6 +28,7 @@ p, h2 {
         width: 85%;
         margin-top: 50px;
         margin-left: 5%;
+        overflow: hidden;
     }
 }
 

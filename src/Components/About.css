@@ -4,10 +4,6 @@
     padding-bottom: 450px;
 }
 
-#about h2 {
-    margin-left: 5vw;
-}
-
 #about-content {
     display: flex;
     overflow: hidden;
