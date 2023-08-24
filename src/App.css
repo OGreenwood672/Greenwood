@@ -1,6 +1,7 @@
 
 body {
     background: #161616;
+    overflow-x: hidden;
 }
 
 header {
@@ -23,8 +24,17 @@ p, h2 {
     padding: 10px;
 }
 
+@media screen and (max-width: 768px) {
+    .thin-content {
+        width: 85%;
+        margin-top: 50px;
+        margin-left: 5%;
+    }
+}
+
 .thick-content {
-    width: 100%;
+    width: 95%;
+    margin: auto;
 }
 
 .project-tab-title {

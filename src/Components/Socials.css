@@ -4,6 +4,9 @@
     position: fixed;
     bottom: 20px;
     z-index: 999;
+    @media only screen and (orientation: portrait) {
+        display: none;
+    }
 }
 
 .social_list {
@@ -15,4 +18,10 @@
     width: 1.5rem;
     height: 1.5rem;
     padding: 10px 5px 10px 5px;
+}
+
+@media only screen and (orientation: portrait) {
+    #socials {
+        display: none;
+    }
 }

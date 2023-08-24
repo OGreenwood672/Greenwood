@@ -23,8 +23,11 @@
     display: flex;
     margin: 2px 25px 10px 15px;
     padding: 10px;
-    @media screen and (max-width: 768px) {
-      display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-content {
+        display: none;
     }
 }
 
