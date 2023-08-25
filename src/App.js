@@ -9,9 +9,6 @@ import Education from "./Components/Education";
 import ContactMe from "./Components/ContactMe";
 import Socials from "./Components/Socials";
 
-import Featured1 from "./Components/Featured1.js";
-import Featured2 from "./Components/Featured2.js";
-
 import FadeIn from "./Effects/FadeIn";
 
 import './App.css';
@@ -27,9 +24,6 @@ class App extends Component {
             <header className="App-header">
                 <Navbar />
             </header>
-            <footer className="App-footer">
-                <MobileMenu />
-            </footer>
 
             <div orientation="left">
                 <Socials />
@@ -49,22 +43,23 @@ class App extends Component {
             </div>
                 
 
-            <div className="thick-content">
+            {/* <div className="thick-content">
 
                 <FadeIn>
-                    <h2 className="project-tab-title">
-                        Projects
-                    </h2>
                     <Featured1 />
                 </FadeIn>
+
                 <FadeIn>
                     <Featured2 />
                 </FadeIn>
             
+            </div> */}
+            <div className="thick-content">
+                <FadeIn>
+                    <Projects />
+                </FadeIn>
             </div>
             <div className="thin-content">
-
-                <Projects />
 
                 <FadeIn>
                     <Education />
@@ -74,6 +69,11 @@ class App extends Component {
                     <ContactMe />
                 </FadeIn>
             </div>
+
+            <footer className="App-footer">
+                <MobileMenu />
+            </footer>
+
 
       </div>
     );
