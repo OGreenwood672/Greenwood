@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Navbar from "./Components/Navbar";
+import MobileMenu from "./Components/MobileMenu";
 import TitleText from "./Components/TitleText";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
@@ -26,6 +27,9 @@ class App extends Component {
             <header className="App-header">
                 <Navbar />
             </header>
+            <footer className="App-footer">
+                <MobileMenu />
+            </footer>
 
             <div orientation="left">
                 <Socials />

@@ -11,6 +11,14 @@ header {
     z-index: 9999;
 }
 
+footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
 p, h2 {
     color: #5db4b4;
 }
@@ -23,7 +31,7 @@ p, h2 {
     padding: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (orientation: portrait) {
     .thin-content {
         width: 85%;
         margin-top: 50px;

@@ -1,0 +1,73 @@
+
+.mobile-menu {
+    width: 100vm;
+    display: flex;
+    height: 100px;
+    position: relative;
+    justify-content: space-between;
+    margin: 0% 10%;
+    display: none;
+}
+
+#mobile-menu-button {
+    display: none;
+}
+
+/* .hidden {
+    display: none;
+} */
+
+.show-logo {
+    animation: slide-logo-up 0.4s;
+    animation-fill-mode: forwards;
+}
+
+.hide-logo {
+    animation: slide-logo-down 0.8s;
+    animation-fill-mode: forwards;
+}
+
+.small-logo {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 4%;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.large-logo {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+@media screen and (orientation: portrait) {
+
+    .mobile-menu {
+        display: flex;
+    }
+
+    #mobile-menu-button {
+        display: flex;
+        margin-bottom: 6vh;
+        z-index: 9999;
+        cursor: pointer;
+    }
+}
+
+@keyframes slide-logo-up {
+    0% {
+        transform: translateY(200%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slide-logo-down {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(200%);
+    }
+}

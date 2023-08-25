@@ -24,7 +24,7 @@ export default function Education() {
                 </div>
                 <div className="content-col">
                     <div className={`edu-info ${tab === "tab1" ? "" : "edu-hidden"}`}>
-                        <h2>University of Cambridge (2023 - Present)</h2>
+                        <h2>Cambridge University (2023 - Present)</h2>
                         <p></p>
                     </div>
                     <div className={`edu-info ${tab === "tab2" ? "" : "edu-hidden"}`}>
