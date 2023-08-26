@@ -6,7 +6,7 @@ export default class Projects extends Component {
 
     render() {
         return (
-            <div>
+            <div className="project-section">
                 <h4 id="projects-title">Projects</h4>
                 <div className="projects">
 
@@ -16,6 +16,9 @@ export default class Projects extends Component {
                                 <p className="project-title">Algorithm Showcase Website</p>
                             </div>
                             <img src="./project_imgs/project_algorithms.png" alt="" />
+                            <div className="mobile-title">
+                                <p>Algorithm Showcase Website</p>
+                            </div>
                         </div>
                     </a>
 
@@ -25,6 +28,9 @@ export default class Projects extends Component {
                                 <p className="project-title">Twitter Map</p>
                             </div>
                             <img src="./project_imgs/project_twitter.png" alt="" />
+                            <div className="mobile-title">
+                                <p>Twitter Map</p>
+                            </div>
                         </div>
                     </a>
 
@@ -34,6 +40,9 @@ export default class Projects extends Component {
                                 <p className="project-title">Online Lyric Game</p>
                             </div>
                             <img src="./project_imgs/project_lyric.png" alt="" />
+                            <div className="mobile-title">
+                                <p>Online Lyric Game</p>
+                            </div>
                         </div>
                     </a>
 
@@ -43,6 +52,9 @@ export default class Projects extends Component {
                                 <p className="project-title">Natural Selection Simulator</p>
                             </div>
                             <img src="./project_imgs/project_natural_selection.png" alt="" />
+                            <div className="mobile-title">
+                                <p>Natural Selection Simulator</p>
+                            </div>
                         </div>
                     </a>
                 </div>

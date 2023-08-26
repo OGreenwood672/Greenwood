@@ -17,7 +17,7 @@ export default function MobileMenu() {
                 <Link to="about" spy={true} smooth={true} offset={-75} duration={500} className="small-logo">
                     <img id="about-menu-button" className="small-logo hidden" src="./icons/info.png" alt="About icon"/>
                 </Link>
-                <Link to="featured1" spy={true} smooth={true} offset={-200} duration={500} className="small-logo">
+                <Link to="projects-title" spy={true} smooth={true} offset={-200} duration={500} className="small-logo">
                     <img id="projects-menu-button" className="small-logo hidden" src="./icons/projects.png" alt="Projects icon"/>
                 </Link>
                 <Link to="name" spy={true} smooth={true} offset={-400} duration={500}>

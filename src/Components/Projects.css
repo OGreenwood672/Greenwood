@@ -57,3 +57,43 @@
     font-weight: 1000;
     color: rgb(1, 151, 151);
 }
+
+.mobile-title {
+    display: none;
+}
+
+@media screen and (orientation: portrait) {
+
+    .mobile-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 1000px;
+    }
+
+    .mobile-title p {
+        position: absolute;
+        margin: 0;
+        max-width: 300px;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: rgb(1, 151, 151);
+        z-index: 999;
+        text-decoration: underline;
+    }
+
+    .project {
+        margin-top: 50px;
+    }
+
+    .project-info {
+        margin-bottom: 60px;
+    }
+
+    .project-section h4 {
+        margin-bottom: 0;
+    }
+
+}
