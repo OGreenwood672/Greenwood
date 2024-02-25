@@ -1,13 +1,13 @@
 {
-  "main.css": "/greenwood/static/css/main.77510ee9.chunk.css",
-  "main.js": "/greenwood/static/js/main.32cb4604.chunk.js",
-  "main.js.map": "/greenwood/static/js/main.32cb4604.chunk.js.map",
-  "runtime~main.js": "/greenwood/static/js/runtime~main.ffb25f6f.js",
-  "runtime~main.js.map": "/greenwood/static/js/runtime~main.ffb25f6f.js.map",
-  "static/js/2.6e0f1c07.chunk.js": "/greenwood/static/js/2.6e0f1c07.chunk.js",
-  "static/js/2.6e0f1c07.chunk.js.map": "/greenwood/static/js/2.6e0f1c07.chunk.js.map",
-  "index.html": "/greenwood/index.html",
-  "precache-manifest.460d647d707594d99226ec5ebc337e1d.js": "/greenwood/precache-manifest.460d647d707594d99226ec5ebc337e1d.js",
-  "service-worker.js": "/greenwood/service-worker.js",
-  "static/css/main.77510ee9.chunk.css.map": "/greenwood/static/css/main.77510ee9.chunk.css.map"
+  "files": {
+    "main.css": "/static/css/main.fa4fe2f8.css",
+    "main.js": "/static/js/main.fc40638b.js",
+    "index.html": "/index.html",
+    "main.fa4fe2f8.css.map": "/static/css/main.fa4fe2f8.css.map",
+    "main.fc40638b.js.map": "/static/js/main.fc40638b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa4fe2f8.css",
+    "static/js/main.fc40638b.js"
+  ]
 }
