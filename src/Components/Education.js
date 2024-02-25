@@ -24,7 +24,7 @@ export default function Education() {
                 </div>
                 <div className="content-col">
                     <div className={`edu-info ${tab === "tab1" ? "" : "edu-hidden"}`}>
-                        <h2>Cambridge University (2023 - Present)</h2>
+                        <h2>Uni of Cambridge</h2>
                         <p></p>
                     </div>
                     <div className={`edu-info ${tab === "tab2" ? "" : "edu-hidden"}`}>
@@ -51,7 +51,7 @@ export default function Education() {
                                 </tr>
                                 <tr>
                                     <td>Physics</td>
-                                    <td>A</td>
+                                    <td>A*</td>
                                 </tr>
                             </tbody>
                         </table>

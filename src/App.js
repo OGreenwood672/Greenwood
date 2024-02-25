@@ -12,7 +12,7 @@ import Socials from "./Components/Socials";
 import FadeIn from "./Effects/FadeIn";
 
 import './App.css';
-
+import './ColourScheme.css';
 
 class App extends Component {
 

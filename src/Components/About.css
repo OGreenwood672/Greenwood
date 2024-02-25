@@ -15,7 +15,7 @@
     width: 50%;
     background: aqua;
     margin-left: 15px;
-    filter: grayscale(80%)
+    filter: grayscale(30%)
 }
 
 #about-text {

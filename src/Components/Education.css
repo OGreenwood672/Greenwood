@@ -1,7 +1,7 @@
 
 
 #education {
-    padding-bottom: 500px;
+    padding-bottom: 60vh;
 }
 
 .edu-table {
@@ -28,13 +28,13 @@
 }
 
 .button:hover {
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(163, 163, 163);
     cursor: pointer;
 }
 
 .edu-tab-active {
-    color: aqua;
-    border-left: .15em solid aqua;
+    color: var(--text);
+    border-left: .15em solid var(--text);
 }
 
 .edu-hidden {
@@ -53,11 +53,11 @@
 
 .GCSE-table, .ALevel-table {
     width: 100%;
-    color: rgb(2, 190, 190);
+    color: var(--text);
+    letter-spacing: 2px;
 }
 
 .GCSE-table, .ALevel-table th {
-    letter-spacing: 2px;
     text-align: left;
 }
 

@@ -57,6 +57,30 @@ export default class Projects extends Component {
                             </div>
                         </div>
                     </a>
+
+                    <a href="https://github.com/OGreenwood672/OCAML_Graphics">
+                        <div className="project">
+                            <div className="project-info">
+                                <p className="project-title">OCAML Ray Tracing</p>
+                            </div>
+                            <img src="./project_imgs/ocaml_graphics.png" alt="" />
+                            <div className="mobile-title">
+                                <p>OCAML Ray Tracing</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div className="project">
+                            <div className="project-info">
+                                <p className="project-title">The Bartender</p>
+                            </div>
+                            <img src="./project_imgs/the_bartender.png" alt="" />
+                            <div className="mobile-title">
+                                <p>The Bartender</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
           );

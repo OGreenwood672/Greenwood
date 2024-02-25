@@ -1,19 +1,23 @@
 
 
 #name {
-    color: white;
-    font-size: 60px;
+    font-size: 7rem;
+}
+@media screen and (orientation: portrait) {
+    #name {
+        font-size: 15vw;
+    }
 }
 
 .Main-Text {
-    padding-bottom: 450px;
+    padding-bottom: 20vh;
     margin-top: 15vh;
 }
 
 .typed-text {
     overflow: hidden;
     width: 140px;
-    border-right: .45em solid white;
+    border-right: .45em solid var(--text);
     white-space: nowrap;
     letter-spacing: .15em;
     animation: 
@@ -28,5 +32,5 @@
 
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: white; }
+    50% { border-color: var(--text); }
 }

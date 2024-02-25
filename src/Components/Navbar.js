@@ -38,8 +38,8 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item underline nav-slidedown">
-                        <a href="https://drive.google.com/file/d/108AitEGJGDjUB0gGqKHfayhSMjjUuMD-/view?usp=sharing" className="nav-item" style={{padding: "initial"}}>
-                            Résumé
+                        <a href="https://drive.google.com/file/d/1R2Y5xDlcLnUv8gk1HfEfh6g5cUkHPcqn/view?usp=sharing" className="nav-item" style={{padding: "initial"}}>
+                            Resume
                         </a>
                     </li>
                 </ol>

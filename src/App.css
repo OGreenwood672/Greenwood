@@ -1,6 +1,6 @@
 
 body {
-    background: #161616;
+    background: var(--background);
 }
 
 header {
@@ -19,8 +19,12 @@ footer {
     z-index: 9999;
 }
 
+h1 {
+    color: var(--text)
+}
+
 p, h2 {
-    color: #5db4b4;
+    color: var(--text);
 }
 
 
