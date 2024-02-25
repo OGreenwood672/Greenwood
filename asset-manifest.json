@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa4fe2f8.css",
-    "main.js": "/static/js/main.fc40638b.js",
-    "index.html": "/index.html",
-    "main.fa4fe2f8.css.map": "/static/css/main.fa4fe2f8.css.map",
-    "main.fc40638b.js.map": "/static/js/main.fc40638b.js.map"
+    "main.css": "/greenwood/static/css/main.fa4fe2f8.css",
+    "main.js": "/greenwood/static/js/main.fc40638b.js",
+    "index.html": "/greenwood/index.html",
+    "main.fa4fe2f8.css.map": "/greenwood/static/css/main.fa4fe2f8.css.map",
+    "main.fc40638b.js.map": "/greenwood/static/js/main.fc40638b.js.map"
   },
   "entrypoints": [
     "static/css/main.fa4fe2f8.css",
