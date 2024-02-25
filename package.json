@@ -1,7 +1,7 @@
 {
   "name": "greenwood-website",
-  "homepage": "http://localhost:3000",
-  "homepage2": "https://ogreenwood672.github.io/greenwood",
+  "homepage2": "http://localhost:3000",
+  "homepage": "https://ogreenwood672.github.io/greenwood",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
