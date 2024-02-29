@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/greenwood/static/css/main.fa4fe2f8.css",
+    "main.css": "/greenwood/static/css/main.ede4fe54.css",
     "main.js": "/greenwood/static/js/main.fc40638b.js",
     "index.html": "/greenwood/index.html",
-    "main.fa4fe2f8.css.map": "/greenwood/static/css/main.fa4fe2f8.css.map",
+    "main.ede4fe54.css.map": "/greenwood/static/css/main.ede4fe54.css.map",
     "main.fc40638b.js.map": "/greenwood/static/js/main.fc40638b.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa4fe2f8.css",
+    "static/css/main.ede4fe54.css",
     "static/js/main.fc40638b.js"
   ]
 }
